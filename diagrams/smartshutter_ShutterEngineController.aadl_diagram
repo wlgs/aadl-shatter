@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="96c517ed-8dd0-47a2-8fd6-a79ec789455a" manual="true">
+    <element uuid="901ebfe0-76e0-4fea-a736-1b08a25a4fa7" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>receive_engine_state</seg>
+      </bo>
+      <position y="60.0"/>
+    </element>
+    <element uuid="e7d19953-806d-47e3-839d-e0a2e3449515" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>send_current_engine_state</seg>
+      </bo>
+      <position y="10.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>ShutterEngineController</seg>
+    </bo>
+    <position/>
+    <size width="541.5078277587891" height="110.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>smartshutter::ShutterEngineController</seg>
+    </context>
+  </config>
+</diagram:Diagram>

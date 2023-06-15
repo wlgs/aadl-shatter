@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="96211b62-20da-4827-be3b-86c926528332" manual="true">
+    <element uuid="d6e96c29-2225-4734-9edd-f22d1ffb90a2" manual="true">
+      <element uuid="12925c6d-72ad-4b38-968a-2675382c3c40" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ethernetAccess</seg>
+        </bo>
+        <position y="45.0"/>
+      </element>
+      <element uuid="b706351b-5d7e-4782-8868-6ecd1e896141" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>hwcAccess</seg>
+        </bo>
+        <position/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>cpu</seg>
+      </bo>
+      <position x="1050.0" y="220.0"/>
+      <size width="281.0" height="85.0"/>
+    </element>
+    <element uuid="9d98fb62-189b-4234-a197-8c1e8d30496b" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>eth</seg>
+      </bo>
+      <position x="940.0" y="330.0"/>
+      <size width="90.99999999999989" height="60.0"/>
+    </element>
+    <element uuid="676545a5-998f-4d77-8802-49781e16c27f" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>hwc</seg>
+      </bo>
+      <position x="930.0000000000001" y="210.0"/>
+      <size width="95.99999999999989" height="60.0"/>
+    </element>
+    <element uuid="af95dde9-497b-4763-a299-0d5d47732ea3" manual="true">
+      <element uuid="1aa87afe-3bd9-45d3-8c51-1606c140a7e9" manual="true" dockArea="bottom">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>hwcAccess</seg>
+        </bo>
+        <position x="70.00000000000011" y="56.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ram</seg>
+      </bo>
+      <position x="840.0" y="70.0"/>
+      <size width="240.0" height="80.0"/>
+    </element>
+    <element uuid="c6730484-1a1b-45db-a21d-cf3818564113" manual="true">
+      <element uuid="b078b752-45d5-4c88-bf12-77dd3946f4cd" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus_access</seg>
+        </bo>
+        <position x="177.58984375" y="60.0"/>
+      </element>
+      <element uuid="5cc6a51b-cc34-4eed-af23-70bd05d41852" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>server_action_dispatch</seg>
+        </bo>
+        <position y="50.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>remoteActionDispatcher</seg>
+      </bo>
+      <position x="390.00000000000006" y="430.0"/>
+      <size width="260.0" height="125.00000000000011"/>
+    </element>
+    <element uuid="ae1ec26c-0332-4409-9848-4314fabdc140" manual="true">
+      <element uuid="3940eef2-771b-4d15-9f14-bec9817fbb61" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus_access</seg>
+        </bo>
+        <position x="304.58984375" y="75.0"/>
+      </element>
+      <element uuid="74df212a-9e1a-44d8-b693-95ceb8dc50c7" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>hwc_access</seg>
+        </bo>
+        <position x="302.37630462646484" y="30.0"/>
+      </element>
+      <element uuid="f1f6f775-0ebb-4285-8f85-907cfca815aa" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>server_action_dispatch</seg>
+        </bo>
+        <position x="237.8841094970703" y="120.0"/>
+      </element>
+      <element uuid="46f462ef-4b03-49d8-95c8-8b8dd953acf2" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>server_action_receive</seg>
+        </bo>
+        <position y="170.00000000000006"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>server</seg>
+      </bo>
+      <position x="350.0" y="200.0"/>
+      <size width="387.0" height="210.00000000000006"/>
+    </element>
+    <element uuid="53f02b41-777c-4091-9336-717d932fedf2" manual="true">
+      <element uuid="05a2a246-e75c-43e1-8bd6-d2c9bc5b4c16" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>action_dispatch</seg>
+        </bo>
+        <position x="323.34375" y="60.0"/>
+      </element>
+      <element uuid="412e03c1-6373-4d3b-8adb-86f61d50c182" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>action_receive</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="0d3e8ead-549d-48c2-8903-27f7a8449f45" manual="true" dockArea="top">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>bus_access</seg>
+        </bo>
+        <position x="30.0"/>
+      </element>
+      <element uuid="cb06e9ac-fcfc-4291-870d-408a0ee213dd" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>engine_state_receive</seg>
+        </bo>
+        <position x="289.24217987060547" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>shutterController</seg>
+      </bo>
+      <position x="1060.0" y="420.0"/>
+      <size width="428.0" height="110.0"/>
+    </element>
+    <element uuid="ac2bb89e-428f-427e-a395-7b5474898016" manual="true">
+      <element uuid="ed362ec6-5ea8-41bb-ad5a-88fd005468ae" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>engine_action_receive</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="7642683a-0338-45ef-a003-e8b76f098c18" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>engine_state</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>shutterEngine</seg>
+      </bo>
+      <position x="1520.0" y="410.0"/>
+      <size width="425.0" height="110.0"/>
+    </element>
+    <element uuid="412569c2-93d0-472e-aa8a-ac0b3bd9751d" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c1 : SmartShutterSystem_impl_Instance.remoteActionDispatcher.bus_access -> SmartShutterSystem_impl_Instance.eth</seg>
+      </bo>
+    </element>
+    <element uuid="b11c885c-d052-48e7-8a24-2432fd235fbb" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c14 : SmartShutterSystem_impl_Instance.cpu.ethernetAccess -> SmartShutterSystem_impl_Instance.eth</seg>
+      </bo>
+    </element>
+    <element uuid="e6637221-a062-4e09-ba81-b4727b50811d" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c14 : SmartShutterSystem_impl_Instance.eth -> SmartShutterSystem_impl_Instance.cpu.ethernetAccess</seg>
+      </bo>
+    </element>
+    <element uuid="f7127b4b-79a0-4ca3-bfcf-9e0c909cf5f6" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c15 : SmartShutterSystem_impl_Instance.hwc -> SmartShutterSystem_impl_Instance.server.hwc_access</seg>
+      </bo>
+    </element>
+    <element uuid="89f6e5fe-17fc-482d-806d-07840775b8a8" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c15 : SmartShutterSystem_impl_Instance.server.hwc_access -> SmartShutterSystem_impl_Instance.hwc</seg>
+      </bo>
+    </element>
+    <element uuid="18fc5114-833c-478b-9625-f0d8b2777924" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c2 : SmartShutterSystem_impl_Instance.server.bus_access -> SmartShutterSystem_impl_Instance.eth</seg>
+      </bo>
+    </element>
+    <element uuid="758d82f9-5f4e-40f0-ae73-4b0562689b4c" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c3 : SmartShutterSystem_impl_Instance.eth -> SmartShutterSystem_impl_Instance.shutterController.bus_access</seg>
+      </bo>
+    </element>
+    <element uuid="ff4c205b-9b6b-4fed-b82c-a44f2b500c26" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c4 : SmartShutterSystem_impl_Instance.shutterController.action_dispatch -> SmartShutterSystem_impl_Instance.shutterEngine.engine_action_receive</seg>
+      </bo>
+    </element>
+    <element uuid="3c88cdac-89c9-4d17-a52c-1926f9b1ed93" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c5 : SmartShutterSystem_impl_Instance.shutterEngine.engine_state -> SmartShutterSystem_impl_Instance.shutterController.engine_state_receive</seg>
+      </bo>
+    </element>
+    <element uuid="2f0e6792-2c6c-4024-8502-2bc942eb58a5" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c6 : SmartShutterSystem_impl_Instance.cpu.hwcAccess -> SmartShutterSystem_impl_Instance.hwc</seg>
+      </bo>
+    </element>
+    <element uuid="a6036717-0f43-46f6-853a-7a741eaa24ee" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c7 : SmartShutterSystem_impl_Instance.hwc -> SmartShutterSystem_impl_Instance.ram.hwcAccess</seg>
+      </bo>
+    </element>
+    <element uuid="2d9858bd-2601-44d2-b36e-af0277ccfeeb" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c8 : SmartShutterSystem_impl_Instance.server.server_action_dispatch -> SmartShutterSystem_impl_Instance.shutterController.action_receive</seg>
+      </bo>
+    </element>
+    <element uuid="977fa7c8-19d0-47a0-a128-194fa38a976c" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c9 : SmartShutterSystem_impl_Instance.remoteActionDispatcher.server_action_dispatch -> SmartShutterSystem_impl_Instance.server.server_action_receive</seg>
+      </bo>
+    </element>
+    <bo>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/shuttersystem/instances/smartshutter_smartshuttersystem_impl_instance.aaxl2</seg>
+    </bo>
+    <position x="-720.0" y="140.0"/>
+    <size width="1960.0" height="575.0000000000001"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/shuttersystem/instances/smartshutter_smartshuttersystem_impl_instance.aaxl2</seg>
+    </context>
+  </config>
+</diagram:Diagram>

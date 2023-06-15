@@ -1,0 +1,11 @@
+Weight totals Report
+
+eth: [L] Sum of weights / gross weight is 0.075 kg (no limit specified)
+hwc: [L] Sum of weights / gross weight is 0.075 kg (no limit specified)
+Warning! remoteActionDispatcher: [L] No net weight plus subcomponent weight or no gross weight
+server: [L] Sum of weights / gross weight is 1.000 kg (no limit specified)
+shutterEngine: [L] Sum of weights / gross weight is 1.500 kg (no limit specified)
+shutterController: [L] Sum of weights / gross weight is 0.500 kg (no limit specified)
+ram: [L] Sum of weights / gross weight is 0.025 kg (no limit specified)
+cpu: [L] Sum of weights / gross weight is 0.050 kg (no limit specified)
+SmartShutterSystem_impl_Instance: [L] Sum of weights / gross weight is 3.225 kg (no limit specified)

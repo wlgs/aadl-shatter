@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="f47380a0-fb4e-4008-821b-03081fbf144e" manual="true">
+    <element uuid="fa6aaaf0-aa7c-4615-bfa1-05c01bf89771" manual="true">
+      <element uuid="7301fd0e-1e32-49fb-b974-706f52c29d50" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>data_in</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="9cdd8fb3-ed81-4ce6-8c7f-5f5a3c0047f7" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>data_out</seg>
+        </bo>
+        <position x="198.18619918823242" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>engineThread</seg>
+      </bo>
+      <position x="453.1172180175781" y="38.0"/>
+      <size width="262.0872344970703" height="60.0"/>
+    </element>
+    <element uuid="6eb73656-1324-4c28-b215-e03d25901d3a" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c1 : ShutterEngineController_impl_Instance.receive_engine_state -> ShutterEngineController_impl_Instance.engineThread.data_in</seg>
+      </bo>
+    </element>
+    <element uuid="f32c2dd3-a11d-4b52-8e04-01ab057d6095" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c2 : ShutterEngineController_impl_Instance.engineThread.data_out -> ShutterEngineController_impl_Instance.send_current_engine_state</seg>
+      </bo>
+    </element>
+    <element uuid="ae68a55a-47f6-49f1-8bd4-40a1860c1d42" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>receive_engine_state</seg>
+      </bo>
+      <position y="48.0"/>
+    </element>
+    <element uuid="c01b0151-110f-4e41-b3d5-d5e40fcd32ae" manual="true" dockArea="right">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>send_current_engine_state</seg>
+      </bo>
+      <position x="900.8060302734375" y="48.0"/>
+    </element>
+    <bo>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/shuttersystem/instances/smartshutter_shutterenginecontroller_impl_instance.aaxl2</seg>
+    </bo>
+    <position/>
+    <size width="1074.4075927734375" height="110.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/shuttersystem/instances/smartshutter_shutterenginecontroller_impl_instance.aaxl2</seg>
+    </context>
+  </config>
+</diagram:Diagram>

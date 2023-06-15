@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="dffe3c1a-262a-42fd-9575-9555abb672b3" manual="true">
+    <element uuid="03dbe88b-ba46-45bb-b23d-272c5b428733" manual="true">
+      <element uuid="d872c0ea-c8de-4b4b-8393-8c4d9d8536b9" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>data_in</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="33c2c29c-93e4-4d95-8b61-0f7fa51fcad9" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>data_out</seg>
+        </bo>
+        <position x="185.5690040588379" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>logicThread</seg>
+      </bo>
+      <position x="518.3710632324219" y="91.0"/>
+      <size width="249.47003936767578" height="60.0"/>
+    </element>
+    <element uuid="b151655e-f7a9-47de-9516-0d872fc26911" manual="true">
+      <element uuid="181bea71-4b73-4856-943e-b345e42b5fc9" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>action_data_in</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="1b75fe1f-d027-4304-a52c-e9adbaa01a9e" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>action_data_out</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="b6c88b3b-5939-4ae9-b33b-da8b230862c2" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>engine_state_in</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="0c488dba-8eb3-4f8c-9fe6-4e3ede5d3b06" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>engine_state_out</seg>
+        </bo>
+        <position x="264.86590576171875" y="60.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>transformThread</seg>
+      </bo>
+      <position x="787.8410949707031" y="38.0"/>
+      <size width="379.17711639404297" height="160.0"/>
+    </element>
+    <element uuid="880b4d8e-78ec-45c5-9147-c239fff07f76" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c1 : ShutterLogicController_impl_Instance.receive_remote_data -> ShutterLogicController_impl_Instance.logicThread.data_in</seg>
+      </bo>
+    </element>
+    <element uuid="e9ae0215-926e-4c83-b76b-975195c91fc1" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c2 : ShutterLogicController_impl_Instance.logicThread.data_out -> ShutterLogicController_impl_Instance.transformThread.action_data_in</seg>
+      </bo>
+      <bendpoints>
+        <point x="777.841064453125" y="133.0"/>
+        <point x="777.841064453125" y="130.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="e7f41a8c-05b6-4983-9148-0450d8b22cc0" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c3 : ShutterLogicController_impl_Instance.transformThread.engine_state_out -> ShutterLogicController_impl_Instance.send_engine_state_data</seg>
+      </bo>
+    </element>
+    <element uuid="b6db36b9-c0b6-4659-9e04-e5110cd0c2e7" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>c4 : ShutterLogicController_impl_Instance.receive_engine_state_data -> ShutterLogicController_impl_Instance.transformThread.engine_state_in</seg>
+      </bo>
+    </element>
+    <element uuid="a8d5e6a5-a402-4e1d-97f9-00409ba4f83e" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>receive_engine_state_data</seg>
+      </bo>
+      <position y="48.0"/>
+    </element>
+    <element uuid="64a20764-f10e-4ffc-a06c-360db8259fbb" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>receive_remote_data</seg>
+      </bo>
+      <position y="101.0"/>
+    </element>
+    <element uuid="eef11ccd-4f15-489d-b64a-eda218148a89" manual="true" dockArea="right">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>send_engine_state_data</seg>
+      </bo>
+      <position x="1351.1419067382812" y="98.0"/>
+    </element>
+    <bo>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/shuttersystem/instances/smartshutter_shutterlogiccontroller_impl_instance.aaxl2</seg>
+    </bo>
+    <position/>
+    <size width="1509.1965942382812" height="210.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/shuttersystem/instances/smartshutter_shutterlogiccontroller_impl_instance.aaxl2</seg>
+    </context>
+  </config>
+</diagram:Diagram>

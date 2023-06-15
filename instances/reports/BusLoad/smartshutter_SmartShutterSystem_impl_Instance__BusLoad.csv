@@ -1,0 +1,26 @@
+Bus load analysis of SmartShutterSystem_impl_Instance
+
+
+"Physical Bus","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"eth","12500.0","0.0","0.0","0.04"
+"hwc","125000.0","0.0","0.0","0.0"
+
+"Bus eth has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"remoteActionDispatcher.server_action_dispatch -> server.server_action_receive","","0.0","","0.0"
+"server.server_action_dispatch -> shutterController.action_receive","","0.0","","0.04"
+
+"WARNING: Bus eth has no bandwidth budget"
+
+"Connection remoteActionDispatcher.server_action_dispatch -> server.server_action_receive bound to eth"
+"WARNING: Connection remoteActionDispatcher.server_action_dispatch -> server.server_action_receive has no bandwidth budget"
+
+"Connection server.server_action_dispatch -> shutterController.action_receive bound to eth"
+"WARNING: Connection server.server_action_dispatch -> shutterController.action_receive has no bandwidth budget"
+
+"Bus hwc has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+
+"WARNING: Bus hwc has no bandwidth budget"
+
+

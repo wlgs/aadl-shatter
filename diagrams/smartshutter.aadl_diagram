@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="8b470396-86ee-427c-85e2-2d800aca6a6a" manual="true">
+    <element uuid="e9ace405-01a0-44a8-abfb-5181feaf013b" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>ControllerAction</seg>
+      </bo>
+      <position x="393.86588287353516" y="38.0"/>
+      <size width="146.85677337646484" height="35.0"/>
+    </element>
+    <element uuid="6742ba2b-12fa-453f-a9c2-afce472ac41f" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>CPU</seg>
+      </bo>
+      <position x="694.2135391235352" y="38.0"/>
+      <size width="85.33984375" height="35.0"/>
+    </element>
+    <element uuid="43823ff9-be0c-4f3f-b179-7a37a62a3a14" manual="true">
+      <element uuid="ca4bb73f-6ab8-45f3-b428-c8214a4d3677" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="678.2135620117188" y="55.5"/>
+          <point x="690.2135620117188" y="55.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>CPU.impl</seg>
+      </bo>
+      <position x="560.7226638793945" y="38.0"/>
+      <size width="113.49087905883789" height="35.0"/>
+    </element>
+    <element uuid="337d5d6f-30dd-4c66-8ded-4b0162c33b61" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>EngineState</seg>
+      </bo>
+      <position x="103.09504699707031" y="38.0"/>
+      <size width="124.64974212646484" height="35.0"/>
+    </element>
+    <element uuid="555f4286-08d5-4c9b-8c8b-2368ef9b8c9d" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>Ethernet</seg>
+      </bo>
+      <position x="495.4361877441406" y="93.0"/>
+      <size width="102.40364074707031" height="35.0"/>
+    </element>
+    <element uuid="c9d9220f-6392-4053-85ac-430db56773bb" manual="true">
+      <element uuid="56eb81c4-b019-4264-b613-7d447ccc6253" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="479.4361877441406" y="110.5"/>
+          <point x="491.4361877441406" y="110.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>Ethernet.impl</seg>
+      </bo>
+      <position x="344.8815002441406" y="93.0"/>
+      <size width="130.5546875" height="35.0"/>
+    </element>
+    <element uuid="91733922-e987-4ba9-b7cd-781699e3e827" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>HWConnection</seg>
+      </bo>
+      <position x="631.0286712646484" y="148.0"/>
+      <size width="141.66797637939453" height="35.0"/>
+    </element>
+    <element uuid="8be737c6-962a-454f-b31c-fad58237071d" manual="true">
+      <element uuid="53ce430b-374a-4156-83cf-486cf3d617a0" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="615.0286865234375" y="165.5"/>
+          <point x="627.0286865234375" y="165.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>HWConnection.impl</seg>
+      </bo>
+      <position x="441.2096405029297" y="148.0"/>
+      <size width="169.81903076171875" height="35.0"/>
+    </element>
+    <element uuid="bf80c697-d15c-450a-a72b-4871ba0f9779" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>ProcessRemoteDataThread</seg>
+      </bo>
+      <position x="373.6952667236328" y="533.0"/>
+      <size width="222.44921875" height="35.0"/>
+    </element>
+    <element uuid="960f83ec-874a-4829-aa89-d76f37d707ac" manual="true">
+      <element uuid="d4e50137-6831-41dc-ac54-55177cda25b8" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="357.6952819824219" y="550.5"/>
+          <point x="369.69525146484375" y="550.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ProcessRemoteDataThread.impl</seg>
+      </bo>
+      <position x="103.09504699707031" y="533.0"/>
+      <size width="250.60023498535156" height="35.0"/>
+    </element>
+    <element uuid="f297e963-763a-4582-8cc4-46f9b866bc0f" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>RAM</seg>
+      </bo>
+      <position x="238.0637969970703" y="93.0"/>
+      <size width="86.81770706176758" height="35.0"/>
+    </element>
+    <element uuid="e6682773-19b0-40b0-9fc6-ddcbe0870e9d" manual="true">
+      <element uuid="5c866ae5-f5b0-4aea-b9df-b2dbfa11b08a" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="222.06378173828125" y="110.5"/>
+          <point x="234.0637969970703" y="110.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>RAM.impl</seg>
+      </bo>
+      <position x="103.09504699707031" y="93.0"/>
+      <size width="114.96874237060547" height="35.0"/>
+    </element>
+    <element uuid="e9e32754-075e-4440-ab99-2a55b4071fe8" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>remote_action_dispatcher</seg>
+      </bo>
+      <position x="361.8593292236328" y="478.0"/>
+      <size width="210.61328125" height="35.0"/>
+    </element>
+    <element uuid="c7343d83-63a7-42f8-be7e-67354c127663" manual="true">
+      <element uuid="bee75bf4-b6c0-40d5-bf8d-8c55ff00c4d2" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="345.8593444824219" y="495.5"/>
+          <point x="357.85931396484375" y="495.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>remote_action_dispatcher.impl</seg>
+      </bo>
+      <position x="103.09504699707031" y="478.0"/>
+      <size width="238.76429748535156" height="35.0"/>
+    </element>
+    <element uuid="55cd2a62-bf67-4358-b120-01032bcd10c8" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>ServerController</seg>
+      </bo>
+      <position x="664.4661560058594" y="203.0"/>
+      <size width="154.25911712646484" height="35.0"/>
+    </element>
+    <element uuid="bfca6b45-349f-4579-9cb1-070dfba1b2dc" manual="true">
+      <element uuid="762c3e63-e4ce-4ad6-94ca-7a746994bc64" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="648.4661865234375" y="220.5"/>
+          <point x="660.4661865234375" y="220.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ServerController.impl</seg>
+      </bo>
+      <position x="462.0559844970703" y="203.0"/>
+      <size width="182.41017150878906" height="35.0"/>
+    </element>
+    <element uuid="298ba6fb-ec50-4b9e-b534-569b73d19b2b" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>shutter_controller</seg>
+      </bo>
+      <position x="311.44921875" y="258.0"/>
+      <size width="160.20313262939453" height="35.0"/>
+    </element>
+    <element uuid="ac0efd08-7ff0-4f02-830d-d0f030fd9f3e" manual="true">
+      <element uuid="07915861-805e-4a61-b0a0-ea890138bf3e" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="295.44921875" y="275.5"/>
+          <point x="307.44921875" y="275.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>shutter_controller.impl</seg>
+      </bo>
+      <position x="103.09504699707031" y="258.0"/>
+      <size width="188.3541717529297" height="35.0"/>
+    </element>
+    <element uuid="0e80d406-7493-4636-973e-79adfdea748f" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>shutter_engine</seg>
+      </bo>
+      <position x="296.6510467529297" y="203.0"/>
+      <size width="145.4049530029297" height="35.0"/>
+    </element>
+    <element uuid="3042da75-15ce-4593-b854-bc3f66294dbe" manual="true">
+      <element uuid="e66c44a0-23d6-46a8-8d0f-a612b9039713" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="280.65106201171875" y="220.5"/>
+          <point x="292.65106201171875" y="220.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>shutter_engine.impl</seg>
+      </bo>
+      <position x="103.09504699707031" y="203.0"/>
+      <size width="173.5560073852539" height="35.0"/>
+    </element>
+    <element uuid="70cde0ac-f416-49d1-81e6-55eb7745613e" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>ShutterEngineController</seg>
+      </bo>
+      <position x="350.73956298828125" y="423.0"/>
+      <size width="199.49349975585938" height="35.0"/>
+    </element>
+    <element uuid="43b82ab8-046d-460b-a588-28788a231c06" manual="true">
+      <element uuid="bca69149-d508-40a4-9f16-ba9dcf927221" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="334.73956298828125" y="440.5"/>
+          <point x="346.73956298828125" y="440.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ShutterEngineController.impl</seg>
+      </bo>
+      <position x="103.09504699707031" y="423.0"/>
+      <size width="227.64451599121094" height="35.0"/>
+    </element>
+    <element uuid="8f2ba5fc-9683-4f9e-a153-9014d873a012" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>ShutterEngineControllerThread</seg>
+      </bo>
+      <position x="392.9856414794922" y="698.0"/>
+      <size width="241.7395782470703" height="35.0"/>
+    </element>
+    <element uuid="4dd6c7f8-7950-4f6b-8634-0488ab2e8eb2" manual="true">
+      <element uuid="1695fec6-f741-4ed9-8934-90d424d28753" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="376.98565673828125" y="715.5"/>
+          <point x="388.98565673828125" y="715.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ShutterEngineControllerThread.impl</seg>
+      </bo>
+      <position x="103.09504699707031" y="698.0"/>
+      <size width="269.8905944824219" height="35.0"/>
+    </element>
+    <element uuid="d69eee16-ca33-4b96-b904-26b1f5a6108d" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>ShutterLogicController</seg>
+      </bo>
+      <position x="341.09764099121094" y="368.0"/>
+      <size width="189.85157775878906" height="35.0"/>
+    </element>
+    <element uuid="782a23d8-7705-4905-9dbc-d1988ce5f9af" manual="true">
+      <element uuid="846be268-ec32-4f5f-96b9-34a168523085" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="325.09765625" y="385.5"/>
+          <point x="337.09765625" y="385.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ShutterLogicController.impl</seg>
+      </bo>
+      <position x="103.09504699707031" y="368.0"/>
+      <size width="218.00259399414062" height="35.0"/>
+    </element>
+    <element uuid="4923e911-8745-4605-8c76-af93e1af5b4c" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>ShutterLogicControllerThread</seg>
+      </bo>
+      <position x="383.3437042236328" y="588.0"/>
+      <size width="232.09765625" height="35.0"/>
+    </element>
+    <element uuid="93d4c7a1-7313-4f37-8145-72b3da6a9d25" manual="true">
+      <element uuid="68b18b71-1ea7-4eac-b694-f41afabc940b" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="367.3437194824219" y="605.5"/>
+          <point x="379.34368896484375" y="605.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ShutterLogicControllerThread.impl</seg>
+      </bo>
+      <position x="103.09504699707031" y="588.0"/>
+      <size width="260.24867248535156" height="35.0"/>
+    </element>
+    <element uuid="62177180-8c52-46e1-9c0f-426b12771d9e" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>ShutterLogicTransformThread</seg>
+      </bo>
+      <position x="386.2929229736328" y="643.0"/>
+      <size width="235.04685974121094" height="35.0"/>
+    </element>
+    <element uuid="396c61d0-b33f-4faa-91b4-01ccce4ac57b" manual="true">
+      <element uuid="dc177816-ac46-4b22-832e-e15fbe2342c4" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="370.29290771484375" y="660.5"/>
+          <point x="382.29290771484375" y="660.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ShutterLogicTransformThread.impl</seg>
+      </bo>
+      <position x="103.09504699707031" y="643.0"/>
+      <size width="263.1978759765625" height="35.0"/>
+    </element>
+    <element uuid="56623c99-8e51-4c43-a667-ce2c2237bf1e" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>ShutterState</seg>
+      </bo>
+      <position x="247.74478912353516" y="38.0"/>
+      <size width="126.12109375" height="35.0"/>
+    </element>
+    <element uuid="35b4c9f7-19d5-4f6b-94f8-7700bcc00f84" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>smart_server</seg>
+      </bo>
+      <position x="286.2278747558594" y="148.0"/>
+      <size width="134.98177337646484" height="35.0"/>
+    </element>
+    <element uuid="47a20650-efe0-4849-8a46-c69445ab7f54" manual="true">
+      <element uuid="279d6dc3-6745-45a8-952a-81c033629f1b" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="270.2278747558594" y="165.5"/>
+          <point x="282.2278747558594" y="165.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>smart_server.impl</seg>
+      </bo>
+      <position x="103.09504699707031" y="148.0"/>
+      <size width="163.13282775878906" height="35.0"/>
+    </element>
+    <element uuid="46908942-6cc7-4895-8033-2bfdbbce3f7f" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>SmartShutterSystem</seg>
+      </bo>
+      <position x="331.43617248535156" y="313.0"/>
+      <size width="175.0012969970703" height="35.0"/>
+    </element>
+    <element uuid="2851bc39-40d7-4f4e-8e52-458587477dc6" manual="true">
+      <element uuid="7da9e691-8454-48e1-9cf6-f23432fdd43d" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="315.4361572265625" y="330.5"/>
+          <point x="327.4361572265625" y="330.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>SmartShutterSystem.impl</seg>
+      </bo>
+      <position x="103.09504699707031" y="313.0"/>
+      <size width="208.34112548828125" height="35.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>smartshutter</seg>
+    </bo>
+    <position/>
+    <size width="830.7252655029297" height="745.0"/>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>smartshutter</seg>
+    </context>
+  </config>
+</diagram:Diagram>
